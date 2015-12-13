@@ -23,12 +23,15 @@ Install dependencies:
 Setup config environment variables:
 
     GITHUB_TOKEN=mygithubapitoken
+    DEFAULT_BRANCH=master (optional)
 
 Start the app:
 
     rackup
 
-Add the url of your app to web hooks section for your repo on https://libraries.io
+Add the url of your app to web hooks section for your repo on https://libraries.io:
+
+    http://myapphost.com/webhook
 
 ## Development
 
