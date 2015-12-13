@@ -20,7 +20,7 @@ class TravisRebuilder < Sinatra::Base
   post '/webhook' do
     content_type :json
 
-    restart_travis_build(@request_payload['repository'])
+    restart_travis_build(@request_payload['repository'], @request_payload['default_branch'])
 
     status 200
     body ''
