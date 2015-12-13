@@ -1,0 +1,14 @@
+{
+  "name": "TravisRebuilder",
+  "description": "Rerun travis-ci tests every time a dependency has a new release",
+  "repository": "https://github.com/librariesio/travis-rebuilder",
+  "logo": "https://avatars3.githubusercontent.com/u/11243589?v=3&s=400",
+  "keywords": ["travis-ci", "dependency", "ruby", "update", "Libraries.io"],
+  "env": {
+    "RACK_ENV": "production",
+    "GITHUB_TOKEN": {
+            "description": "Your GitHub OAuth Token",
+            "value": ""
+    }
+  }
+}
