@@ -72,7 +72,6 @@ DEPENDENCIES
   rack
   sinatra
   travis
-  typhoeus
   unicorn
 
 BUNDLED WITH
