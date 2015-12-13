@@ -2,6 +2,8 @@ require 'bundler'
 require 'json'
 Bundler.require
 
+DEFAULT_BRANCH = ENV['DEFAULT_BRANCH'] || 'master'
+
 class TravisRebuilder < Sinatra::Base
   use Rack::Deflater
 
@@ -26,7 +28,7 @@ class TravisRebuilder < Sinatra::Base
     body ''
   end
 
-  def restart_travis_build(repository, branch = 'master')
+  def restart_travis_build(repository, branch = DEFAULT_BRANCH)
     session = Travis::Client::Session.new
     session.github_auth ENV['GITHUB_TOKEN']
     repo = session.repo(repository)
