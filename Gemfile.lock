@@ -68,7 +68,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  json
   rack
   sinatra
   travis
