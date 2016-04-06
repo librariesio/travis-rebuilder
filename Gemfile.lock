@@ -52,7 +52,7 @@ GEM
     unicorn (5.1.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
-    websocket (1.2.2)
+    websocket (1.2.3)
 
 PLATFORMS
   ruby
