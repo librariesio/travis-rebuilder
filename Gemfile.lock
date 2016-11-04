@@ -1,7 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.4.0)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
     backports (3.6.8)
     connection_pool (2.2.0)
     ethon (0.9.1)
@@ -28,6 +29,7 @@ GEM
     net-http-persistent (3.0.0)
       connection_pool (~> 2.2)
     net-http-pipeline (1.0.1)
+    public_suffix (2.0.3)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
