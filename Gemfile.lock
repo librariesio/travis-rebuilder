@@ -18,7 +18,7 @@ GEM
       net-http-persistent (~> 2.9)
       net-http-pipeline
     highline (1.7.8)
-    json (2.0.2)
+    json (2.0.3)
     kgio (2.11.0)
     launchy (2.4.3)
       addressable (~> 2.3)
