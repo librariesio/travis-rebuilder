@@ -10,7 +10,7 @@ GEM
     faraday_middleware (0.11.0.1)
       faraday (>= 0.7.4, < 1.0)
     ffi (1.9.18)
-    gh (0.15.0)
+    gh (0.15.1)
       addressable (~> 2.4.0)
       backports
       faraday (~> 0.8)
