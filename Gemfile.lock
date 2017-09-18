@@ -19,7 +19,6 @@ GEM
       net-http-pipeline
     highline (1.7.8)
     json (2.1.0)
-    kgio (2.11.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     multi_json (1.12.2)
@@ -27,13 +26,13 @@ GEM
     mustermann (1.0.1)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
+    puma (3.10.0)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
-    raindrops (0.19.0)
     sinatra (2.0.0)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -51,19 +50,16 @@ GEM
       typhoeus (~> 0.6, >= 0.6.8)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
-    unicorn (5.3.0)
-      kgio (~> 2.6)
-      raindrops (~> 0.7)
     websocket (1.2.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  puma
   rack
   sinatra
   travis
-  unicorn
 
 RUBY VERSION
    ruby 2.4.2p111
