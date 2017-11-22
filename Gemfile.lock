@@ -26,7 +26,7 @@ GEM
     mustermann (1.0.1)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
-    puma (3.10.0)
+    puma (3.11.0)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -50,7 +50,7 @@ GEM
       typhoeus (~> 0.6, >= 0.6.8)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
-    websocket (1.2.4)
+    websocket (1.2.5)
 
 PLATFORMS
   ruby
