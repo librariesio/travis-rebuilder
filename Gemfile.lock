@@ -62,7 +62,7 @@ DEPENDENCIES
   travis
 
 RUBY VERSION
-   ruby 2.4.2p111
+   ruby 2.5.0p0
 
 BUNDLED WITH
    1.16.1
