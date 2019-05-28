@@ -64,4 +64,4 @@ rbenv global 2.5.0
 
 ## Copyright
 
-Copyright (c) 2016 Andrew Nesbitt. See [LICENSE](https://github.com/librariesio/travis-rebuilder/blob/master/LICENSE) for details.
+Copyright (c) 2016-2019 Andrew Nesbitt. See [LICENSE](https://github.com/librariesio/travis-rebuilder/blob/master/LICENSE) for details.
